@@ -1,0 +1,678 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Montserrat','Open Sans';
+}
+p{
+	font-family:'Open Sans';
+}
+h1,h2,h3,h4,h5,h6{
+	 font-family: 'Montserrat';
+}
+
+/*header start*/
+header#topBar{
+	background: linear-gradient(#0000006e,#0000006e),url(../images/header-background.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:800px;
+}
+.container {
+    width: 1140px;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+}
+
+.logomenu {
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-weight: 600;
+	transition:all 0.3s;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu {
+    float: left;
+    width: fit-content;
+    margin-left: 197px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.menuicon a i {
+    background: #1abc9c;
+    padding: 8px;
+    margin-right: 10px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+	transition:0.3s;
+}
+
+.menuicon {
+    width: fit-content;
+    float: left;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.headinfo h1 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-align: center;
+}
+.headinfo p {
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 532px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.headinfo button {
+    background: #1abc9c;
+    padding: 15px 35px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+	transition:0.3s;
+}
+
+.headinfo {
+    padding-top: 150px;
+    padding-bottom: 350px;
+}
+
+.menu ul li a:hover{color:#1abc9c;}
+.menuicon a i:hover{background:white;
+                  color:#1abc9c;
+}
+.headinfo button:hover{background:transparent;
+                      border:3px solid #1abc9c; 
+					  color:#1abc9c;
+}
+
+/*header end*/
+
+/*second section  start */
+
+.secondimg {
+}
+
+section.second {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.secondinfo {
+    width: 420px;
+    float: left;
+    padding-right: 150px;
+}
+
+.secondimg {
+    width: 570px;
+    float: right;
+    overflow: hidden;
+}
+
+.secondimg img {
+    width: 100%;
+	transition:0.3s;
+}
+
+.secondinfo h1 {
+    width: 285px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.secondinfo .Launching {
+    margin-bottom: 20px;
+}
+
+.secondinfo h6 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.secondimginfo {
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.secondsingle {
+    width: 330px;
+    margin-right: 75px;
+    float: left;
+}
+
+.secondsingle:last-child {margin-right: 0px;}
+
+.secondall {
+    overflow: hidden;
+}
+
+.secondsingle i {
+    font-size: 30px;
+    background: #1abc9c;
+    padding: 15px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.secondsingle h2 {
+    margin-bottom: 10px;
+}
+.secondimg:hover img{
+	transform:scale(1.2);
+}
+
+/*second section  end */
+
+/*third section*/
+section.third {
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+
+.third1 p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.third1 h1 {
+    text-align: center;
+    /* margin-top: 10px; */
+    /* margin-bottom: 40px; */
+}
+
+.thirdall {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.thirdsingle {
+    width: 345px;
+    float: left;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.thirdimg img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thirdsingle:last-child {
+    margin-right: 0px;
+}
+.thirdinfo h1 {
+    text-align: center;
+    width: 255px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.thirdinfo p {
+    padding-bottom: 20px;
+    width: 250px;
+    margin: auto;
+}
+
+.thirdinfo .third1 i {
+    font-size: 6px;
+}
+
+p.thirdi1 i {
+    font-size: 8px;
+    margin-right: 10px;
+    color: #1abc9c;
+}
+.thirdinfo {
+    /* width: 255px; */
+    margin: auto;
+    border-left: 2px solid #e9e5e5;
+    border-right: 1px solid #e9e5e5;
+    border-bottom: 1px solid #e9e5e5;
+    position: relative;
+}
+
+p.thirdi1 {
+    margin-bottom: 10px;
+    padding: 0;
+}
+.thirdinfo2 {
+    overflow: hidden;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.thirdinfo2 p {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: contents;
+}
+
+.thirdinfo2 third3 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.thirdinfo2 .third3 {margin-left: 6px;font-size: 18px;color: #1abc9c;font-weight: 800;}
+.thirdinfo button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: #1abc9c;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 120px;
+    bottom: -18px;
+}
+.thirdinfo button:hover{color:#1abc9c;
+                        background:white;
+						border:3px solid #1abc9c;
+}
+/*third section*/
+
+/*fourth section*/
+
+.fourthcover{
+	overflow:hidden;
+}
+
+.fourthimg1{width:50%;
+      float:left;
+}
+
+.fourthimg1 img{
+	width:100%;
+}
+
+.fourthinfo1{
+	width: 50%;
+	float:left;
+	margin-top: 100px;
+	margin-bottom: 105px;
+}
+.fourthinfo1cover{
+	margin-left: 85px;
+	width: 570px;
+}
+.fourthinfo1head h1 {
+    font-size: 30px;
+}
+
+.fourthinfo2num {
+    width: 90px;
+    float: left;
+}
+.fourthinfo2 {
+    padding-top: 25px;
+	transition:0.3s;
+}
+
+.fourthinfo2p p {padding: 12px 0px;font-weight: 700;font-size: 20px;}
+
+.fourthinfo2num span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.fourthimginfo {
+    height: 505px;
+    overflow: hidden;
+}
+
+.fourthimg2 {
+    width: 50%;
+    float: left;
+}
+
+.fourthimg2 img {
+    width: 100%;
+}
+
+.fourthinfo1cover2 {
+    width: 570px;
+    float: right;
+    margin-right: 85px;
+}
+.fourthinfo3 {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.fourthinfo3icon {
+    width: 140px;
+    float: left;
+    margin-right: 60px;
+}
+
+.fourthinfo3icon:last-child {
+    margin-right: 0px;
+}
+
+.fourthinfo3icon i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fourthinfo3icon span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fourthinfo4 h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.fourthinfo4 p {
+    margin-bottom: 30px;
+}
+.box1 {
+    width: 560px;
+    height: 25px;
+    background: #1abc9c;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.box2 {
+    height: 25px;
+    width: 400px;
+    background: #1abc9c;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.box3 {
+    height: 25px;
+    width: 470px;
+    background: #1abc9c;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.fourthinfo5info {
+    margin-bottom: 20px;
+}
+.fourthinfo2:hover {
+    color: #1abc9c;
+    cursor:pointer;
+}
+
+.fourthinfo2:hover .fourthinfo2num span {
+    border: 3px solid #1abc9c;
+	color: #1abc9c;
+	cursor:pointer;
+}
+section#fifth {
+    padding: 100px 0px;
+}
+
+.fifthheader {
+    width: 630px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.fifthheader h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.fifthheader p {
+    text-align: center;
+}
+
+.fifthall {
+    overflow: hidden;
+}
+
+.fifthsingle {
+    width: 300px;
+    float: left;
+    padding-right: 64px;
+}
+
+.fifthsingle:last-child {
+    padding-right: 0px;
+}
+
+.fifthsingleimg {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.fifthsingleimg img {
+    width: 100%;
+    border-radius: 100%;
+    height: 100%;
+}
+
+.fifthsingle p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.fifthsingle h5 {
+    text-align: center;
+    font-size: 17px;
+}
+.fifthicon1 {
+    float: left;
+    margin: 110px 0px;
+    font-size: 25px;
+    padding-right: 40px;
+}
+
+
+.fifthicon2 {
+    float: right;
+    margin: 110px 0px;
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+.fourthinfo5info h4 {font-weight: 400;}
+
+.fifthsingleonly {
+    overflow: hidden;
+    width: fit-content;
+    float: left;
+}
+
+.fifthicon2:hover {
+    cursor: pointer;
+    color:#1abc9c;
+}
+
+.fifthicon1:hover {
+    cursor: pointer;
+    color:#1abc9c;
+}
+/*fourth section*/
+section#sixth {
+    background: #153e52;
+}
+
+.sixthcontainer {
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.sixthinfo {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 55px;
+}
+
+.sixthform {}
+
+.sixthform {
+    width: 42%;
+    float: left;
+    margin-left: 8%;
+}
+
+.sixthtext input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: #395876;
+    box-shadow: 0px 0px 1px 1px #b48f8fcf;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.sixthemail input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: #395876;
+    box-shadow: 0px 0px 1px 1px #b48f8fcf;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.sixthselect select {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: #395876;
+    box-shadow: 0px 0px 1px 1px #b48f8fcf;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.sixthcheckbox {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 13px;
+}
+
+.sixthcheckbox input {
+    margin-right: 10px;
+}
+
+.sixthbutton button {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #1abc9c;
+    color: white;
+    font-weight: 900;
+    border: none;
+	transition:0.3s;
+}
+.sixthtext input[type="text"]::placeholder {
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.sixthemail input[type="email"]::placeholder {
+    color: white;
+    padding-left: 20px;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.sixthinfo .callme {
+    font-family: 'Montserrat';
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #1abc9c;
+    font-weight: 600;
+}
+
+.sixthinfo h2 {
+    color: white;
+    width: 100%;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.sixthinfo .you {
+    color: #e5e1e1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.sixthinfo .sixthicon {
+    color: #e5e1e1;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.sixthinfo .sixthicon i {
+    color: #1abc9c;
+    margin-right: 12px;
+    font-size: 10px;
+}
+.sixthbutton button:hover {
+    color: #1abc9c;
+    border: 2px solid #1abc9c;
+    background: none;
+}
